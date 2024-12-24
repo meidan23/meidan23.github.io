@@ -1,0 +1,134 @@
+/* 🎨 הגדרת סגנונות כלליים */
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 🖼️ תמונת הכותרת */
+  .hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  /* 📝 כותרות */
+  h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 32px;
+    color: hsl(24, 5%, 18%);
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 24px;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 10px;
+  }
+  
+  /* 📜 טקסט מבוא */
+  .intro-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* ⏳ זמן הכנה */
+  .preparation-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  /* 🥚 מצרכים */
+  .ingredients ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* 🍳 הוראות הכנה */
+  .instructions ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  /* 🧠 טבלת תזונה */
+  .nutrition {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .nutrition table {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .nutrition td {
+    padding: 5px;
+  }
+  
+  .nutrition td:first-child {
+    font-weight: 600;
+  }
+  
+  /* 📝 פוטר */
+  footer {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  /* 📱 רספונסיביות */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .preparation-time,
+    .ingredients,
+    .instructions,
+    .nutrition {
+      padding: 10px;
+    }
+  }
+  
+  hr {
+    border: none; /* מסיר את ברירת המחדל של ה-border */
+    height: 2px; /* גובה הקו */
+    background-color: hsl(0, 0%, 86%); /* צבע הקו */
+    margin: 20px 0; /* ריווח מעל ומתחת הקו */
+  }
+  
